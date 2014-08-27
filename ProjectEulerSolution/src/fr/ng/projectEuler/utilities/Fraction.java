@@ -7,6 +7,12 @@ public class Fraction {
 	private final BigInteger numerator; // Always coprime with denominator
 	private final BigInteger denominator; // Always positive
 
+	/**
+	 * Immutable unlimited precision fraction
+	 * 
+	 * @param num
+	 * @param denom
+	 */
 	public Fraction(BigInteger num, BigInteger denom) {
 		if (denom.signum() == 0) {
 			throw new ArithmeticException("Division by zero");
