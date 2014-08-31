@@ -1,6 +1,6 @@
 package fr.ng.projectEuler;
 
-public class Project21 {
+public class Project021 {
 
 	// Let d(n) be defined as the sum of proper divisors of n (numbers less than
 	// n which divide evenly into n).
