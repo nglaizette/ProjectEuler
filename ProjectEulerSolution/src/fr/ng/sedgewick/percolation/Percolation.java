@@ -43,7 +43,7 @@ public class Percolation {
 			union(getCellIndex(i - 1, j), cellindex);
 		} else if (i == 1) {
 			// connect to virtual top cell
-			union(cellindex, size);
+			union(cellindex, size * size);
 		}
 
 		// if not bottom row
