@@ -83,7 +83,7 @@ import fr.ng.sedgewick.utilities.StdOut;
  * operation takes constant time. Moreover, the amortized time per
  * <em>union</em>, <em>find</em>, and <em>connected</em> operation has inverse
  * Ackermann complexity. For alternate implementations of the same API, see
- * {@link QuickUnionUF}, {@link QuickFindUF}, and {@link WeightedQuickUnionUF}.
+ * {@link QuickUnionUF}, {@link QuickFindUF}, and {@link MyWeightedQuickUnionUF}.
  * 
  * <p>
  * For additional documentation, see <a

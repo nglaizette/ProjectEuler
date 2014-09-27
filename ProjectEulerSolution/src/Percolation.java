@@ -1,6 +1,4 @@
-package fr.ng.sedgewick.percolation;
 
-import us.rs.sedgewick.union.WeightedQuickUnionUF;
 
 public class Percolation {
 	// 0-closed, 1-open

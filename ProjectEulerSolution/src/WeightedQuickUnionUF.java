@@ -1,4 +1,5 @@
-package us.rs.sedgewick.union;
+
+
 
 import fr.ng.sedgewick.utilities.StdIn;
 import fr.ng.sedgewick.utilities.StdOut;

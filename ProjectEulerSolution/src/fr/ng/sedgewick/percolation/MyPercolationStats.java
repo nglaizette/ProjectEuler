@@ -1,21 +1,21 @@
 package fr.ng.sedgewick.percolation;
 
-import fr.ng.sedgewick.utilities.StdOut;
-import fr.ng.sedgewick.utilities.StdRandom;
-import fr.ng.sedgewick.utilities.StdStats;
+import edu.princeton.cs.introcs.StdOut;
+import edu.princeton.cs.introcs.StdRandom;
+import edu.princeton.cs.introcs.StdStats;
 
-public class PercolationStats {
+public class MyPercolationStats {
 	private final double[] attemps;
 
 	// Perform T independent computational experiments on an N-by-N grid
-	public PercolationStats(int N, int T) {
+	public MyPercolationStats(int N, int T) {
 		if (N <= 0 || T <= 0) {
 			throw new IllegalArgumentException();
 		}
 
 		attemps = new double[T];
 		for (int i = 0; i < T; i++) {
-			Percolation percolation = new Percolation(N);
+			MyPercolation percolation = new MyPercolation(N);
 			int steps = 0;
 			while (!percolation.percolates()) {
 				int row = StdRandom.uniform(N) + 1;
@@ -39,7 +39,7 @@ public class PercolationStats {
 	}
 
 	/**
-	 * Sample standard deviation of percolation thershold
+	 * Sample standard deviation of percolation threshold
 	 */
 	public double stddev() {
 		return StdStats.stddev(attemps);
@@ -60,7 +60,7 @@ public class PercolationStats {
 	}
 
 	public static void main(String[] args) {
-		PercolationStats percolationStats = new PercolationStats(20, 100);
+		MyPercolationStats percolationStats = new MyPercolationStats(200, 100);
 		StdOut.print("mean = " + percolationStats.mean() + "\n");
 		StdOut.print("Std dev = " + percolationStats.stddev() + "\n");
 		StdOut.print("95% confidence interval = "
