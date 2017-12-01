@@ -30,5 +30,29 @@ public class Project002 {
 		}
 		System.out.println("Somme :" + somme);
 	}
+  public static void main(String[] args) {
+        long sum = 0;
 
+        long f_n = 1;
+        long f_npp = 2;
+
+        while (f_npp < 4_000_000) {
+            // System.out.println("f_(n+1):" + f_npp);
+            if (f_npp % 2 == 0) {
+                System.out.println("-> f_(n+1):" + f_npp);
+                sum += f_npp;
+            }
+            else {
+                System.out.println("f_(n+1):" + f_npp);
+            }
+            long temp = f_npp;
+            f_npp = f_n + f_npp;
+            if (f_npp < 0) {
+                System.out.println("Break");
+            }
+            f_n = temp;
+        }
+
+        System.out.println("Sum : " + sum);
+    }
 }
