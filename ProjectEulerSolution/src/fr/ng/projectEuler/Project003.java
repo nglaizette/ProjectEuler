@@ -43,4 +43,32 @@ public class Project003 {
 			System.out.println(n);
 		}
 	}
+	
+	        long number = 600851475143L;
+        long bigestDivisor = 1;
+
+        for (long i = 2; i < Math.sqrt(number); i++) {
+            if (number % i == 0) {
+                number /= i;
+                if (i > bigestDivisor) {
+                    bigestDivisor = i;
+                    System.out.println("Bigest divisor :" + bigestDivisor);
+                }
+            }
+        }
+
+        System.out.println("Bigest divisor :" + number);
+        System.out.println("t divisor :" + bigestDivisor);
+    }
+
+    // public static void main(String[] args) {
+    // long given = 600851475143L;
+    // int ans = IntStream.rangeClosed(2, (int) Math.sqrt(given)).filter(i -> given % i == 0 &&
+    // isPrime(i)).max().getAsInt();
+    // System.out.println(ans);
+    // }
+    //
+    // private static boolean isPrime(int i) {
+    // return IntStream.rangeClosed(2, (int) Math.sqrt(i)).noneMatch(k -> i%k == 0);
+    // }
 }
