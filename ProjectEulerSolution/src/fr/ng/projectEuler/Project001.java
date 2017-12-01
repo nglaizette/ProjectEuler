@@ -19,4 +19,8 @@ public class Project001 {
 
 		System.out.println("Somme :" + somme);
 	}
+	public static void main(String[] args) {
+        int sum = IntStream.range(0, 1000).filter(e -> e % 3 == 0 || e % 5 == 0).sum();
+        System.out.println("Sum :" + sum);
+    }
 }
