@@ -1,4 +1,4 @@
-* Copyright (C) @year@ by ME.
+/* Copyright (C) @year@ by ME.
  * All rights reserved.
  *
  */
@@ -12,7 +12,7 @@ package fr.ng.euler;
  *
  * @author NG
  */
-public class Euler14 {
+public class Euler014 {
     public static void main(String[] args) {
         int longuest = 0;
         int longusestValue = 0;

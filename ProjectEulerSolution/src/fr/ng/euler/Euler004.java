@@ -1,6 +1,6 @@
-package fr.ng.projectEuler;
+package fr.ng.euler;
 
-public class Project004 {
+public class Euler004 {
 	// A palindromic number reads the same both ways. The largest palindrome
 	// made from the product of two 2-digit numbers is 9009 = 91 × 99.
 	//
@@ -42,7 +42,7 @@ public class Project004 {
 		return reversed;
 	}
 	
-	 public static void main(String[] args) {
+	 public static int run() {
         Long product = Long.valueOf(1);
         for (int i = 100; i < 1_000; i++) {
             for (int j = i; j < 1_000; j++) {
@@ -54,6 +54,6 @@ public class Project004 {
             }
         }
 
-        System.out.println(product.intValue());
+        return product.intValue();
     }
 }

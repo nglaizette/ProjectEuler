@@ -1,6 +1,6 @@
-package fr.ng.projectEuler;
+package fr.ng.euler;
 
-public class Project026 {
+public class Euler026 {
 
 	/**
 	 * @param args

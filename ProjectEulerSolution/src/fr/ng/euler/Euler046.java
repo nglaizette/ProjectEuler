@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
  *
  * @author NG
  */
-public class Euler46 {
+public class Euler046 {
     private static List<Long> primeNumber = new ArrayList<>();
 
     private static List<Long> squareNumber = new ArrayList<>();

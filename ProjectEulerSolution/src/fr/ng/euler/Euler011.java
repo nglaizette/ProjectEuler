@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Scanner;
 
-public class Euler11 {
+public class Euler011 {
 
     public static void main(String[] args) throws FileNotFoundException {
 

@@ -1,6 +1,6 @@
-package fr.ng.projectEuler;
+package fr.ng.euler;
 
-public class Project431 {
+public class Euler431 {
 
 	private static final double RADIUS = 6;
 	private static final double REPOSE_ANGLE = Math.toRadians(40);

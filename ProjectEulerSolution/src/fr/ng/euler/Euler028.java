@@ -1,6 +1,6 @@
-package fr.ng.projectEuler;
+package fr.ng.euler;
 
-public class Project028 {
+public class Euler028 {
 	static int size = 1001;
 	static int[][] grid = new int[size][size];
 

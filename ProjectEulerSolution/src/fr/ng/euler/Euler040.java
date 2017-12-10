@@ -1,6 +1,6 @@
 package fr.ng.euler;
 
-public class Euler4 {
+public class Euler040 {
     public static void main(String[] args) {
         Long product = Long.valueOf(1);
         for (int i = 100; i < 1_000; i++) {

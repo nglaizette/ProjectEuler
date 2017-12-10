@@ -1,6 +1,6 @@
 package us.rs.sedgewick;
 
-import edu.princeton.cs.introcs.StdRandom;
+import fr.ng.sedgewick.utilities.StdRandom;
 
 public class Experiment {
 
