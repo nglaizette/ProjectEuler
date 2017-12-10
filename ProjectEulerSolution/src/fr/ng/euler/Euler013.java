@@ -1,8 +1,8 @@
-package fr.ng.projectEuler;
+package fr.ng.euler;
 
 import java.math.BigInteger;
 
-public class Project013 {
+public class Euler013 {
 	// Work out the first ten digits of the sum of the following one-hundred
 	// 50-digit numbers.
 	//

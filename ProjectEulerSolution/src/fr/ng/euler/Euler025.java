@@ -1,8 +1,8 @@
-package fr.ng.projectEuler;
+package fr.ng.euler;
 
 import java.math.BigInteger;
 
-public class Project025 {
+public class Euler025 {
 	// The Fibonacci sequence is defined by the recurrence relation:
 	//
 	// Fn = Fn−1 + Fn−2, where F1 = 1 and F2 = 1.

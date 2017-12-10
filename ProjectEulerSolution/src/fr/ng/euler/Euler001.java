@@ -1,6 +1,8 @@
-package fr.ng.projectEuler;
+package fr.ng.euler;
 
-public class Project001 {
+import java.util.stream.IntStream;
+
+public class Euler001 {
 
 	//
 	// If we list all the natural numbers below 10 that are multiples of 3 or 5,
@@ -19,7 +21,7 @@ public class Project001 {
 
 		System.out.println("Somme :" + somme);
 	}
-	public static void main(String[] args) {
+	static void run() {
         int sum = IntStream.range(0, 1000).filter(e -> e % 3 == 0 || e % 5 == 0).sum();
         System.out.println("Sum :" + sum);
     }

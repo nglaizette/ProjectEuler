@@ -1,6 +1,6 @@
-package fr.ng.projectEuler;
+package fr.ng.euler;
 
-public class Project024 {
+public class Euler024 {
 
 	private static final int PERMUTATION_NUMBER = 1000000;
 	private static final int DIGITSNUMBER = 10;

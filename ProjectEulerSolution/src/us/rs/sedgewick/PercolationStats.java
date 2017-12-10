@@ -1,8 +1,8 @@
+package us.rs.sedgewick;
 
-
-import edu.princeton.cs.introcs.StdOut;
-import edu.princeton.cs.introcs.StdRandom;
-import edu.princeton.cs.introcs.StdStats;
+import fr.ng.sedgewick.utilities.StdOut;
+import fr.ng.sedgewick.utilities.StdRandom;
+import fr.ng.sedgewick.utilities.StdStats;
 
 public class PercolationStats {
 	private final double[] attemps;

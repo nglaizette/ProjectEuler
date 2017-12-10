@@ -1,9 +1,9 @@
-package fr.ng.projectEuler;
+package fr.ng.euler;
 
 import fr.ng.projectEuler.utilities.Library;
 import fr.ng.projectEuler.utilities.QuadraticFormula;
 
-public class Project027 {
+public class Euler027 {
 
 	// Euler discovered the remarkable quadratic formula:
 	//

@@ -1,9 +1,9 @@
-package fr.ng.projectEuler;
+package fr.ng.euler;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Project023 {
+public class Euler023 {
 	private final static int MAX = 28123;
 
 	/**
